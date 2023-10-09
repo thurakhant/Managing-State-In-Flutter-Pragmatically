@@ -22,7 +22,7 @@ class _PageTwoViewState extends State<PageTwoView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Page Two'),
+        title: const Text('Page Two Subscribe'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back),
           onPressed: () {
