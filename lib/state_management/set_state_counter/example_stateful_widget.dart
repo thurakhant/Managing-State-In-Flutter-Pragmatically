@@ -19,7 +19,7 @@ class _ExampleStatefulPageState extends State<ExampleStatefulPage> {
 
 /// Summary Note
 ///
-/// [ HotRestart ]
+/// [HotRestart]
 /// Application တခုကို Hot Restart လုပ်လိုက်တဲ့အခါမှာ Build Method တည်းမှာရှိတဲ့ buildCount သည် 2 Times ဆိုပြီးတော့ Console မှာ ထွက်လာတယ်။ ဒီလိုပေါ့ [ Child Widget builds 2 ]
 /// ဘာလို့လဲဆိုတော့ Hot Restart လုပ်တဲ့အခါမှာ Flutter Framework က နေ အလုပ် 3 ခု ကိုလုပ်တယ်။
 /// အဲ့ဒါတွေက ပထမဆုံး သူက Widgets တွေအကုန် ကို Reconstruct( ပြန်ပြီးတည်ဆောက်တာကိုပြောတာပါ ) နဲ့ widgets တွေတည်းမှာရှိတဲ့ Build Method ကို တခါခေါ်ပါတယ်။ ဒါကြောင့် Reconstruct လုပ်တဲ့ အချိန် +1 တိုးလာပါတယ်။
@@ -29,5 +29,5 @@ class _ExampleStatefulPageState extends State<ExampleStatefulPage> {
 /// ဒါကြောင့် Result ကလည်း 2 ဖြစ်သွားပါတယ်
 ///
 /// Error Tracing
-/// ပြန်ဆန်းစစ်ကြည့်ရင်  Variable or Widgets တွေကို Reconstruct ‌ပြန်လုပ်နေတဲ့ အခါမှာ [ Error ] တခုဖြစ်ရင်
+/// ပြန်ဆန်းစစ်ကြည့်ရင်  Initialize ပြန်လုပ်နေတဲ့အခါမှာ Variable or Widgets တွေကို  Reconstruct ‌ပြန်လုပ်နေတဲ့ အချိန် [Error] တခုဖြစ်ရင် Trace လိုက်ရတာလွယ်သွားပါတယ်။
 ///
