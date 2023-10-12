@@ -24,7 +24,7 @@ class _MainPageChallengeState extends State<MainPageChallenge> {
                 IconButton(
                     onPressed: () {
                       setState(() {
-                        total = total + 1;
+                        total++;
                       });
                     },
                     icon: const Icon(Icons.add)),
@@ -32,7 +32,7 @@ class _MainPageChallengeState extends State<MainPageChallenge> {
                 IconButton(
                     onPressed: () {
                       setState(() {
-                        total = total - 1;
+                        total--;
                       });
                     },
                     icon: const Icon(Icons.remove)),

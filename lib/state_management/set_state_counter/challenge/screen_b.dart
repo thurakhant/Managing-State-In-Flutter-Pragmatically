@@ -17,6 +17,7 @@ class _ScreenBState extends State<ScreenB> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Column(

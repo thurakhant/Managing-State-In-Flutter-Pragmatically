@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:managing_state_flutter/state_management/set_state_counter/challenge/main_page_challenge.dart';
+import 'package:managing_state_flutter/state_management/set_state_counter/challenge/main_page.dart';
 import 'package:managing_state_flutter/state_management/set_state_counter/set_state_counter_app.dart';
 
 /// This is a main method
