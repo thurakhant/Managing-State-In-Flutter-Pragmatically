@@ -32,3 +32,5 @@ class _ExampleStatefulPageState extends State<ExampleStatefulPage> {
 /// ပြန်ဆန်းစစ်ကြည့်ရင်  Initialize ပြန်လုပ်နေတဲ့အခါမှာ Variable or Widgets တွေကို  Reconstruct ‌ပြန်လုပ်နေတဲ့ အချိန် [Error] တခုဖြစ်ရင် Widgets တွေ နဲ့ Variable တွေ မှာ ဖြစ်တဲ့ Error တွေကို Trace လိုက်ရတာလွယ်သွားပါတယ်။
 /// ဥပမာ Initialize လုပ်တဲ့အခါမှာ ကိုက Variable တွေမှာ Null Value ပေးထားတာမျိုး
 ///
+///
+///
